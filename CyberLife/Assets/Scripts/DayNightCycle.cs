@@ -43,11 +43,11 @@ public class DayNightCycle : MonoBehaviour
         }
         else if (hr >= minEvening && hr < maxEvening)
         {
-            timeOfDay = 170;
+            timeOfDay = 180;
         }
          else if (hr >= minNight)
         {
-            timeOfDay = 290;
+            timeOfDay = 280;
         }
         
 
