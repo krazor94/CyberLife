@@ -1,7 +1,7 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2015
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyberLife.CSharp", "CyberLife.CSharp.csproj", "{ACBFAD05-7381-CEF1-CBF5-014ED2D1E859}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{085F5310-E919-75B6-F58F-25058C92CB04}") = "CyberLife", "Assembly-CSharp.csproj", "{2ADE5E4B-79F2-3D9D-0580-8102C759D6AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,12 +9,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{ACBFAD05-7381-CEF1-CBF5-014ED2D1E859}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ACBFAD05-7381-CEF1-CBF5-014ED2D1E859}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ACBFAD05-7381-CEF1-CBF5-014ED2D1E859}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ACBFAD05-7381-CEF1-CBF5-014ED2D1E859}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ADE5E4B-79F2-3D9D-0580-8102C759D6AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ADE5E4B-79F2-3D9D-0580-8102C759D6AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ADE5E4B-79F2-3D9D-0580-8102C759D6AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ADE5E4B-79F2-3D9D-0580-8102C759D6AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal
