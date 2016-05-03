@@ -1,27 +1,21 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿using System.Collections;
+using UnityEngine;
 
-public class DoorAnimations : MonoBehaviour 
+public class DoorAnimations : MonoBehaviour
 {
+    private void OnTriggerEnter(Collider col)
+    {
+        if (col.tag == "Player")
+        {
+            transform.GetChild(0).GetComponent<Animator>().SetBool("Door", true);
+        }
+    }
 
-	void OnTriggerEnter(Collider col)
-	{
-
-		if (col.tag == "Player") 
-		{
-			transform.GetChild(0).GetComponent<Animator> ().SetBool ("Door", true);
-		}
-
-	}
-	void OnTriggerExit(Collider col)
-	{
-
-		if (col.tag == "Player") 
-		{
-			transform.GetChild(0).GetComponent<Animator> ().SetBool ("Door", false);
-		}
-
-	}
-
-
+    private void OnTriggerExit(Collider col)
+    {
+        if (col.tag == "Player")
+        {
+            transform.GetChild(0).GetComponent<Animator>().SetBool("Door", false);
+        }
+    }
 }
