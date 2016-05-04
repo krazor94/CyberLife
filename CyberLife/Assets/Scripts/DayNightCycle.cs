@@ -8,30 +8,28 @@ public class DayNightCycle : MonoBehaviour
 
     public float smooth = 2.0F;
 
-
-    public int minMorning, maxMorning, 
-               minNoon, maxNoon, 
-               minEvening, maxEvening, 
+    public int minMorning, maxMorning,
+               minNoon, maxNoon,
+               minEvening, maxEvening,
                minNight, maxNight;
-
 
     private void FixedUpdate()
     {
-        transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(timeOfDay, 0, 0), Time.deltaTime * smooth);
+        if (DialogSystem.pause)
+            return;
 
+        transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(timeOfDay, 0, 0), Time.deltaTime * smooth);
 
         /*
          5AM to 7AM - Dawn
 
         11AM - 1PM  -  Noon
-        
+
         5pm to 7PM -   Duck and,
-        
+
         8PM till 4AM is Night
-         
+
          */
-
-
 
         if (hr >= minMorning && hr < maxMorning)
         {
@@ -45,16 +43,10 @@ public class DayNightCycle : MonoBehaviour
         {
             timeOfDay = 180;
         }
-         else if (hr >= minNight)
+        else if (hr >= minNight)
         {
             timeOfDay = 280;
         }
-        
-
-
-
-
-
 
         min += 0.35f + daySpeedModifier;
         if (min >= 60)

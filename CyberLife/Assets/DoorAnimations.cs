@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class DoorAnimations : MonoBehaviour
 {
+    public PlayerController.State state;
+
     private void OnTriggerEnter(Collider col)
     {
         if (col.tag == "Player")
