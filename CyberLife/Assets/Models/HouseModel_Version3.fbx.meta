@@ -1,0 +1,136 @@
+fileFormatVersion: 2
+guid: 83a807f8119ee4c429141daf7266f4ab
+timeCreated: 1462433328
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Fence01
+    100002: Fence02
+    100004: Fence03
+    100006: Fence04
+    100008: Fence05
+    100010: Fence06
+    100012: Fence07
+    100014: Fence08
+    100016: Fence09
+    100018: Floor
+    100020: Floor 1
+    100022: Ground_Outdoors
+    100024: //RootNode
+    100026: Roof_Dark4
+    100028: transform1
+    100030: transform10
+    100032: transform2
+    100034: transform3
+    100036: transform4
+    100038: transform5
+    100040: transform6
+    100042: transform7
+    100044: transform8
+    100046: transform9
+    100048: Wall_Segment50
+    100050: Walls
+    400000: Fence01
+    400002: Fence02
+    400004: Fence03
+    400006: Fence04
+    400008: Fence05
+    400010: Fence06
+    400012: Fence07
+    400014: Fence08
+    400016: Fence09
+    400018: Floor
+    400020: Floor 1
+    400022: Ground_Outdoors
+    400024: //RootNode
+    400026: Roof_Dark4
+    400028: transform1
+    400030: transform10
+    400032: transform2
+    400034: transform3
+    400036: transform4
+    400038: transform5
+    400040: transform6
+    400042: transform7
+    400044: transform8
+    400046: transform9
+    400048: Wall_Segment50
+    400050: Walls
+    2300000: Fence09
+    2300002: Floor 1
+    2300004: Roof_Dark4
+    2300006: Walls
+    3300000: Fence09
+    3300002: Floor 1
+    3300004: Roof_Dark4
+    3300006: Walls
+    4300000: Roof_Dark4
+    4300002: Walls
+    4300004: Floor
+    4300006: Fence09
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
